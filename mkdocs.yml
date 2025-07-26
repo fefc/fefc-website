@@ -1,0 +1,80 @@
+site_name: fef's cache
+site_author: fefc
+copyright: Copyright &copy; 2025 Felix CHANTREL
+theme:
+  name: material
+  palette:
+    primary: deep orange
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+  icon:
+    tag:
+      3dprinting: material/printer-3d-nozzle
+      electronics: fontawesome/solid/microchip
+      software: fontawesome/solid/file-code
+      mechanics: fontawesome/solid/screwdriver-wrench
+plugins:
+  - document-dates:
+      position: top            # Display position: top (after title)  bottom (end of document), default: bottom
+      type: date               # Date type: date  datetime  timeago, default: date
+      locale: en               # Localization: en zh zh_TW es fr de ar ja ko ru, default: en
+      date_format: '%d-%m-%Y'  # Date format strings, e.g., %Y-%m-%d, %b %d, %Y, etc
+      time_format: '%H:%M:%S'  # Time format strings (valid only if type=datetime)
+      show_author: false       # Show author or not, default: true
+      exclude:                 # List of excluded files
+        - index.md
+        - tags.md
+        - projects/index.md
+        - projects/archives/index.md
+        - photography/index.md
+  - search
+  - tags:
+      tags_allowed:
+        - 3D Printing
+        - Electronics
+        - Software
+        - Mechanics
+  - glightbox:
+      auto_caption: true
+      caption_position: bottom
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - tables
+  - toc:
+      permalink: "#"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/solid/cube 
+      link: https://makerworld.com/en/@fefc/upload
+    - icon: fontawesome/brands/github 
+      link: https://github.com/fefc
+  tags:
+    3D Printing: 3dprinting
+    Electronics: electronics
+    Software: software
+    Mechanics: mechanics
+nav:
+  - Home:
+    - index.md
+  - Projects:
+    - projects/index.md
+    - projects/honda-cb125k/index.md
+    - Archives:
+      - projects/archives/index.md
+      - projects/freewifi-secure/index.md
+      - projects/aux-for-old-car-radio/index.md
+      - projects/whirlpool-tumble-dryer/index.md
+      - projects/broken-display-into-light-box/index.md
+      - projects/broken-led-tv-light-box/index.md
