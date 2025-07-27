@@ -68,6 +68,9 @@ extra:
     Electronics: electronics
     Software: software
     Mechanics: mechanics
+  analytics:
+    provider: google
+    property: G-XERTF3R19G
 nav:
   - Home:
     - index.md
