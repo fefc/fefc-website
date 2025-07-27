@@ -1,4 +1,5 @@
 site_name: fef's cache
+site_url: https://fefc.eu/
 site_author: fefc
 copyright: Copyright &copy; 2025 Felix CHANTREL
 theme:
@@ -70,6 +71,7 @@ nav:
     - index.md
   - Projects:
     - projects/index.md
+    - projects/chaariot/index.md
     - projects/honda-cb125k/index.md
     - Archives:
       - projects/archives/index.md

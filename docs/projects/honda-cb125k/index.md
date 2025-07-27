@@ -50,4 +50,4 @@ I don't remember the sources from where I got all thoses files, sorry for not qu
 * [Honda CB125K5 Parts List](assets/Honda CB125K5 Parts List.pdf){ :download target="_blank" }
 * [Honda CB125K5 Revue Moto Technique](assets/Honda CB125K5 Revue Moto Technique 7.pdf){ :download target="_blank" }
 * [Honda CB125K5 Electrique](assets/Honda CB125K5 Electrique.pdf){ :download target="_blank" }
-* [Honda CB125K Manuel utilisateur](assets/Honda CB125K Manuel utilisateur.pdf){ :download target="_blank" }
+* [Honda CB125K Manuel utilisateur](assets/Honda CB125K Manuel utilisateur_light.pdf){ :download target="_blank" }
