@@ -61,6 +61,8 @@ extra:
       link: https://makerworld.com/en/@fefc/upload
     - icon: fontawesome/brands/github 
       link: https://github.com/fefc
+    - icon: material/email
+      link: mailto:ctc-zt8@fefc.eu
   tags:
     3D Printing: 3dprinting
     Electronics: electronics
